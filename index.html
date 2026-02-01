@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./dist/output.css" rel="stylesheet">
+    <title>My Portfolio</title>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+    <header class="p-6 bg-white shadow-sm flex flex-col md:flex-row justify-between items-center gap-4">
+        <h1 class="text-2xl font-bold text-blue-600">DevName</h1>
+        <nav class="space-x-4">
+            <a href="#bio" class="hover:text-blue-500">Bio</a>
+            <a href="#links" class="hover:text-blue-500">Links</a>
+        </nav>
+    </header>
+
+    <main class="max-w-4xl mx-auto mt-6 md:mt-12 p-6">
+        
+        <section id="bio" class="flex flex-col md:flex-row items-center text-center md:text-left gap-8 mb-12">
+            <img src="https://via.placeholder.com/150" alt="Profile" 
+                 class="rounded-full w-32 h-32 md:w-48 md:h-48 border-4 border-blue-200 shadow-lg">
+            
+            <div>
+                <h2 class="text-3xl md:text-5xl font-extrabold mb-4">Hello, I'm [Name]</h2>
+                <p class="text-base md:text-xl text-gray-700 leading-relaxed">
+                    I build web experiences. This text gets larger and the layout shifts 
+                    when you view this on a desktop!
+                </p>
+            </div>
+        </section>
+
+        <section id="links" class="bg-blue-600 p-8 rounded-2xl text-white">
+            <h3 class="text-xl font-bold mb-6 text-center md:text-left">Connect with me</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <a href="#" class="bg-white/10 border border-white/20 p-4 rounded-xl text-center hover:bg-white/20 transition">GitHub</a>
+                <a href="#" class="bg-white/10 border border-white/20 p-4 rounded-xl text-center hover:bg-white/20 transition">LinkedIn</a>
+                <a href="#" class="bg-white/10 border border-white/20 p-4 rounded-xl text-center hover:bg-white/20 transition">Twitter</a>
+            </div>
+        </section>
+        
+    </main>
+</body>
+</html>
